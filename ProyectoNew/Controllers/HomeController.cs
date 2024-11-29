@@ -1,4 +1,6 @@
+using Dapper;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using ProyectoNew.Models;
 using System.Diagnostics;
 
@@ -15,6 +17,7 @@ namespace ProyectoNew.Controllers
 
         public IActionResult Index()
         {
+
             return View();
         }
 
